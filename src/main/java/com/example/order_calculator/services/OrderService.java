@@ -13,10 +13,10 @@ public class OrderService {
     private DiscountService discountService;
 
     public double total(Order order) {
-        double amount = order.getAmount();
-        double discount = discountService.discount(amount, order.getDiscount());
-        double shipping = shippingService.shipping(amount);
-        return amount + shipping - discount;
+        double basic = order.getBasic();
+        double discount = discountService.discount(basic, order.getDiscount());
+        double shipping = shippingService.shipping(basic);
+        return basic + shipping - discount;
     }
 
 }

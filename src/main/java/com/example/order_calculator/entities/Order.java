@@ -1,33 +1,33 @@
 package com.example.order_calculator.entities;
 
 public class Order {
-    private Integer id;
-    private Double amount;
+    private Integer code;
+    private Double basic;
     private Double discount;
 
     public Order() {
     }
 
-    public Order(Integer id, Double total, Double discount) {
-        this.id = id;
-        this.amount = total;
+    public Order(Integer code, Double total, Double discount) {
+        this.code = code;
+        this.basic = total;
         this.discount = discount;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getCode() {
+        return code;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setCode(Integer code) {
+        this.code = code;
     }
 
-    public Double getAmount() {
-        return amount;
+    public Double getBasic() {
+        return basic;
     }
 
-    public void setAmount(Double amount) {
-        this.amount = amount;
+    public void setBasic(Double basic) {
+        this.basic = basic;
     }
 
     public Double getDiscount() {
