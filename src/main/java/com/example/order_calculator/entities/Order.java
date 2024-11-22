@@ -2,7 +2,7 @@ package com.example.order_calculator.entities;
 
 public class Order {
     private Integer id;
-    private Double total;
+    private Double amount;
     private Double discount;
 
     public Order() {
@@ -10,7 +10,7 @@ public class Order {
 
     public Order(Integer id, Double total, Double discount) {
         this.id = id;
-        this.total = total;
+        this.amount = total;
         this.discount = discount;
     }
 
@@ -22,12 +22,12 @@ public class Order {
         this.id = id;
     }
 
-    public Double getTotal() {
-        return total;
+    public Double getAmount() {
+        return amount;
     }
 
-    public void setTotal(Double total) {
-        this.total = total;
+    public void setAmount(Double amount) {
+        this.amount = amount;
     }
 
     public Double getDiscount() {
