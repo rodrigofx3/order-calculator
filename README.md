@@ -44,7 +44,7 @@ order-total-system/
 ### Entidade Pedido
 - **Campos**:
   - `code` (Long): Identificador único do pedido.
-  - `basic` (BigDecimal): Valor base do pedido antes do desconto.
+  - `basic` (Double): Valor base do pedido antes do desconto.
   - `discount` (Double): Porcentagem de desconto aplicada.
 
 ---
