@@ -67,8 +67,3 @@ order-total-system/
    ```bash
    mvn spring-boot:run
    ```
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
-
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/yourname/order-total-system/blob/main/LICENSE)
